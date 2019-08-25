@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #4A4843;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ECF0F1;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+}
+
+.btn-back {
+     border: 2px solid #4A4843;
+     font-size: 1.8rem;
+     font-weight: bold;
+     width: 141px;
+     margin: 20px auto;
+     padding: .375rem .75rem;
+ }
+
+.btn-back:hover {
+    background-color: #307FE2;
+    color: #fff;
+    -webkit-transition: ease 0.4s;
+    -o-transition: ease 0.4s;
+    transition: ease 0.4s;
+}
