@@ -8,7 +8,7 @@ require_once __DIR__ . '/../env.php';
 use App\Database;
 
 $db = new Database(LOCAL_DSN, LOCAL_USERNAME, LOCAL_PASSWORD);
-$datas = $db->query("SELECT * FROM `real`");
+$datas = $db->query("SELECT * FROM `real` ORDER BY id DESC");
 
 ?>
 <!DOCTYPE html>
