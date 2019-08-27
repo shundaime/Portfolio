@@ -89,6 +89,12 @@ $datas = $db->query("SELECT * FROM `real` ORDER BY id DESC");
                         <span class="hidden">Voir mon profil LinkedIn</span>
                     </a>
                 </li>
+                <li>
+                    <a href="https://github.com/shundaime" target="_blank" title="Voir mon profil GitHub">
+                        <i class="fab fa-github"></i>
+                        <span class="hidden">voir mon profil GitHub</span>
+                    </a>
+                </li>
             </ul>
         </article>
         <img src="img/me.jpg" alt="photo guillaume charmasson" class="rounded-circle reveal-3">
@@ -274,6 +280,7 @@ $datas = $db->query("SELECT * FROM `real` ORDER BY id DESC");
     <footer class="reveal">
         <ul class="reveal-2">
             <li><a href="https://www.linkedin.com/in/guillaume-charmasson-999259155/" target="_blank" title="Voir mon profil LinkedIn"><i class="fab fa-linkedin"></i><span class="hidden">Voir mon profil LinkedIn</span></a></li>
+            <li><a href="https://github.com/shundaime" target="_blank" title="Voir mon profil GitHub"><i class="fab fa-github"></i><span class="hidden">voir mon profil GitHub</span></a></li>
             <li><a href="mailto:<?= FINAL_MAIL ?>" title="Envoyez moi un mail"><i class="fas fa-envelope-square"></i><span class="hidden">Envoyez moi un mail</span></a></li>
         </ul>
         <button type="button" value="Haut de page" class="scrollup" aria-hidden="true"><i class="fas fa-chevron-up"></i></button>

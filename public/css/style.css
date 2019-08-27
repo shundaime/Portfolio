@@ -193,8 +193,12 @@ nav ul {
     justify-content: space-evenly;
 }
 
-#about i {
+#about .fa-linkedin {
     color: #307FE2;
+}
+
+#about .fa-github {
+    color: #000;
 }
 
 /*SKILLS*/
