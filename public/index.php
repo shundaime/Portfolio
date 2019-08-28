@@ -272,9 +272,10 @@ $datas = $db->query("SELECT * FROM `real` ORDER BY id DESC");
         </article>
         <aside class="reveal-3">
             <h3 class="little-title">Mes coordonnées :</h3>
-            <p><a href="https://goo.gl/maps/sgwcaAnuobD2" target="_blank" class="underline"><i class="fas fa-map-marker"></i>&nbsp;43590 Beauzac</a></p>
-            <p><a href="tel:06.77.90.78.35" class="underline"><i class="fas fa-phone"></i>&nbsp;06 77 90 78 35</a></p>
-            <p><a href="mailto:<?= FINAL_MAIL ?>" class="underline"><i class="fas fa-envelope"></i>&nbsp;<?= FINAL_MAIL ?></a></p>
+            <p><a href="https://goo.gl/maps/sgwcaAnuobD2" target="_blank" class="underline" title="Voir sur maps"><i class="fas fa-map-marker"></i>&nbsp;43590 Beauzac</a></p>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89879.43585706934!2d4.025197727881881!3d45.25320439624514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f5c042a047d4d1%3A0x1c093cb3290e6330!2s43590%20Beauzac!5e0!3m2!1sfr!2sfr!4v1566980258988!5m2!1sfr!2sfr" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+            <p><a href="tel:06.77.90.78.35" class="underline" title="Appeler"><i class="fas fa-phone"></i>&nbsp;06 77 90 78 35</a></p>
+            <p><a href="mailto:<?= FINAL_MAIL ?>" class="underline" title="Envoyer un mail"><i class="fas fa-envelope"></i>&nbsp;<?= FINAL_MAIL ?></a></p>
         </aside>
     </section>
     <footer class="reveal">
