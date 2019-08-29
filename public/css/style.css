@@ -396,6 +396,7 @@ nav ul {
     margin-bottom: 25px;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+    text-align: center;
 }
 
 #contact article {
@@ -419,11 +420,11 @@ nav ul {
 label {
     position: absolute;
     z-index: 0;
-    font-size: 0rem;
+    font-size: 0;
 }
 
 .captcha {
-    margin: 22px 0px;
+    margin: 22px 0;
 }
 
 /*FOOTER*/
